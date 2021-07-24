@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+.container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
+/*testing*/
+.container-fluid .header ul, li, a {
+    margin: 0px;
+    padding: 0px;
+}
+/*testing*/
+.header {
+    width: auto;
+    background-color: #ffffff;
+    padding: 0px;
+}
+ul, li, a {
+    margin: 0px;
+    padding: 0px;
+}
+span, .navigation {
+    font-size: 20px;
+    color: #bc9a5b;
+}
+.logo-img {
+    margin-top: -10px;
+}
+.navigation ul {
+    float: right;
+}
+.navigation ul, li, a {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #bc9a5b;
+}
+.nav-btn {
+    margin-right: 20px;
+}
+a {
+    text-decoration: none !important;
+}
+.carousel-control-prev-icon:hover {
+    background-color: #bc9a5b;
+    padding: 5px !important;
+}
+.carousel-control-next-icon:hover {
+    padding: 5px !important;
+    background-color: #bc9a5b;
+}
+.room-heading {
+    padding: 20px;
+}
+/*.rooms img {
+    width: 100%;
+}*/
+h2 {
+    border: solid 2px black;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    border-radius: 50px;
+}
+.rooms {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.room-card {
+    padding: 10px;
+    text-align: center;
+}
+.services-heading {
+    padding: 20px;
+}
+.services-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*padding: 10px;*/
+}
+.service-item {
+    padding: 10px;
+    text-align: center;
+}
+.services-icons i {
+    font-size: 40px;
+    color: #bc9a5b;
+}
+i, p {
+    font-size: 20px;
+}
+footer, small {
+    text-align: center;
+    font-size: 16px;
+    color: #428bca;
+}
+@media only screen and (max-width: 480px) {
+    .logo-img img {
+        width: 100px;
+        height: 50px;
+    }
+    /*div, .rooms .room-card {
+        display: block;
+        width: 100%;
+    }*/
+    /*.rooms img {
+        width: 100%;
+    }*/
+    .room-card-1 {
+        display: block;
+    }
+    .room-card-2 {
+        display: block;
+    }
+    .room-card-3 {
+        display: block;
+    }
+  }
